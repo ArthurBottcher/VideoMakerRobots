@@ -1,0 +1,29 @@
+{
+  "name": "version",
+  "version": "1.0.0",
+  "description": "Robôs que criaram videos para canal no youtube a partir de um termo fornecido pelo usuário",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurBottcher/VideoMakerRobots.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArthurBottcher/VideoMakerRobots/issues"
+  },
+  "homepage": "https://github.com/ArthurBottcher/VideoMakerRobots#readme",
+  "dependencies": {
+    "@ibm-watson/natural-language-understanding-nodejs": "^0.3.1",
+    "algorithmia": "^0.3.10",
+    "googleapis": "^40.0.1",
+    "ibm-cloud-sdk-core": "^0.3.2",
+    "image-downloader": "^3.4.2",
+    "readline-sync": "^1.4.9",
+    "sbd": "^1.0.15",
+    "watson-developer-cloud": "^4.0.1"
+  }
+}
